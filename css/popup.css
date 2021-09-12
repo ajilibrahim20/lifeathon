@@ -1,0 +1,39 @@
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .blurr{
+    filter: blur(20px);
+  }
+  /* The actual popup (appears on top) */
+  .popup .popuptext {
+    position:absolute;
+    visibility: hidden;
+    width: 60vw;
+    padding: 8px 8px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    padding: 8px 0;                                           
+    z-index: 1;
+    justify-items: center;
+    margin:auto auto;
+  }
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
