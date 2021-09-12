@@ -8,123 +8,44 @@ var pop6 = document.getElementById("myPopup6");
 var pop7 = document.getElementById("myPopup7");
 var pop8 = document.getElementById("myPopup8");
 var pop9 = document.getElementById("myPopup9");
+var blur = document.getElementById("table");
 function myFunction() {
     popup.classList.toggle("show");
-    pop1.classList.remove("show");
-    pop2.classList.remove("show");
-    pop3.classList.remove("show");
-    pop4.classList.remove("show");
-    pop5.classList.remove("show");
-    pop6.classList.remove("show");
-    pop7.classList.remove("show");
-    pop8.classList.remove("show");
-    pop9.classList.remove("show");
+    blur.classList.toggle("blurr");
   }
   function myFunction1() {
     pop1.classList.toggle("show");
-    popup.classList.remove("show");
-    pop3.classList.remove("show");
-    pop2.classList.remove("show");
-    pop4.classList.remove("show");
-    pop5.classList.remove("show");
-    pop6.classList.remove("show");
-    pop7.classList.remove("show");
-    pop8.classList.remove("show");
-    pop9.classList.remove("show");
+    blur.classList.toggle("blurr");
   }
   function myFunction2() {
     pop2.classList.toggle("show");
-    pop3.classList.remove("show");
-    popup.classList.remove("show");
-    pop1.classList.remove("show");
-    pop4.classList.remove("show");
-    pop5.classList.remove("show");
-    pop6.classList.remove("show");
-    pop7.classList.remove("show");
-    pop8.classList.remove("show");
-    pop9.classList.remove("show");
+    blur.classList.toggle("blurr");
   }
   function myFunction3(){
     pop3.classList.toggle("show");
-    popup.classList.remove("show");
-    pop1.classList.remove("show");
-    pop2.classList.remove("show");
-    pop4.classList.remove("show");
-    pop5.classList.remove("show");
-    pop6.classList.remove("show");
-    pop7.classList.remove("show");
-    pop8.classList.remove("show");
-    pop9.classList.remove("show");
+    blur.classList.toggle("blurr");
   }
   function myFunction4(){
     pop4.classList.toggle("show");
-    popup.classList.remove("show");
-    pop1.classList.remove("show");
-    pop2.classList.remove("show");
-    pop3.classList.remove("show");
-    pop5.classList.remove("show");
-    pop6.classList.remove("show");
-    pop7.classList.remove("show");
-    pop8.classList.remove("show");
-    pop9.classList.remove("show");
+    blur.classList.toggle("blurr");
   }
   function myFunction5(){
     pop5.classList.toggle("show");
-    popup.classList.remove("show");
-    pop1.classList.remove("show");
-    pop2.classList.remove("show");
-    pop3.classList.remove("show");
-    pop4.classList.remove("show");
-    pop6.classList.remove("show");
-    pop7.classList.remove("show");
-    pop8.classList.remove("show");
-    pop9.classList.remove("show");
+    blur.classList.toggle("blurr");
   }
   function myFunction6(){
     pop6.classList.toggle("show");
-    popup.classList.remove("show");
-    pop1.classList.remove("show");
-    pop2.classList.remove("show");
-    pop3.classList.remove("show");
-    pop4.classList.remove("show");
-    pop5.classList.remove("show");
-    pop7.classList.remove("show");
-    pop8.classList.remove("show");
-    pop9.classList.remove("show");
+    blur.classList.toggle("blurr");
   }
   function myFunction7(){
     pop7.classList.toggle("show");
-    popup.classList.remove("show");
-    pop1.classList.remove("show");
-    pop2.classList.remove("show");
-    pop3.classList.remove("show");
-    pop4.classList.remove("show");
-    pop5.classList.remove("show");
-    pop6.classList.remove("show");
-    pop8.classList.remove("show");
-    pop9.classList.remove("show");
+    blur.classList.toggle("blurr");
   }
   function myFunction8(){
     pop8.classList.toggle("show");
-    popup.classList.remove("show");
-    pop1.classList.remove("show");
-    pop2.classList.remove("show");
-    pop3.classList.remove("show");
-    pop4.classList.remove("show");
-    pop5.classList.remove("show");
-    pop6.classList.remove("show");
-    pop7.classList.remove("show");
-    pop9.classList.remove("show");
+    blur.classList.toggle("blurr");
   }
   function myFunction9(){
     pop9.classList.toggle("show");
-    popup.classList.remove("show");
-    pop1.classList.remove("show");
-    pop2.classList.remove("show");
-    pop3.classList.remove("show");
-    pop4.classList.remove("show");
-    pop5.classList.remove("show");
-    pop6.classList.remove("show");
-    pop7.classList.remove("show");
-    pop8.classList.remove("show");
+    blur.classList.toggle("blurr");
   }
