@@ -22,6 +22,9 @@
     
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/fontawesome-all.min.css" rel="stylesheet">
     <link href="css/swiper.css" rel="stylesheet">
@@ -38,7 +41,7 @@
         <div class="container">
 
             <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index.html"><img src="images/Life.png" alt="alternative"> LIFEATHON</a> 
+            <a class="navbar-brand logo-image" href="index.html" style="font-family: 'Bad Script', cursive;"><img src="images/Life.png" alt="alternative" style="width:75px;height:auto"> Lifeathon</a> 
 
             <!-- Text Logo - Use this if you don't have a graphic logo -->
             <!-- <a class="navbar-brand logo-text" href="index.html">Nubis</a> -->
@@ -62,7 +65,7 @@
                         <a class="nav-link" href="#features">Startups</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">FAQ</a>
+                        <!-- <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">FAQ</a> -->
                         <ul class="dropdown-menu" aria-labelledby="dropdown01">
                             <li><a class="dropdown-item" href="article.html">Article Details</a></li>
                             <li><div class="dropdown-divider"></div></li>
@@ -72,9 +75,9 @@
                         </ul>
                     </li>
                 </ul>
-                <span class="nav-item">
+                <!-- <span class="nav-item">
                     <a class="btn-solid-sm" href="#contact">Contact Us</a>
-                </span>
+                </span> -->
             </div> <!-- end of navbar-collapse -->
         </div> <!-- end of container -->
     </nav> <!-- end of navbar -->
@@ -82,7 +85,7 @@
 
 
     <!-- Header -->
-    <header class="ex-header">
+    <header class="ex-header" id="blurr-head">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center mb-5">
@@ -197,6 +200,16 @@
                     <p>Designing of high efficiency BLDC Motor for drones </p>
                 </div>
             </div>
+            <div class="popup" onclick="myFunction10()">
+                <div class="popuptext" id="myPopup10">
+                    <p style="text-align: center;">Virtual Meeting for professionals and clients</p>
+                    <p>Organistaion:<strong>Tegain</strong></p>
+                    <p>Domain :<strong>Technology</strong></p>
+                    <br>
+                    <p>"We need a virtual meeting setup to seemlessly conduct meetings online with clients and professionals.
+                        Google meet and Zoom have limitations when put into real interaction with persons. A virtual meeting app which interacts which shows options to interact, write meeting minutes and other efficient features which meets the need of the meeting"</p>
+                </div>
+            </div>
 			<div class="row">
 				<div class="col-md-12">
 					<div class="table-wrap"> 
@@ -271,6 +284,12 @@
                                 <td onclick="myFunction9()">Hight efficiency BLDC motor </td>
                                 <td>Drone and Aerospace</td>
                             </tr>
+                            <tr>
+                                <th scope="row">11</th>
+                                <td>Tegain</td>
+                                <td onClick="myFunction10()">Virtual Meeting for professionals and clients</td>
+                                <td>Technology</td>
+                            </tr>
 						  </tbody>
 						</table>
 					</div>
@@ -279,7 +298,7 @@
 		</div>
 	</section>
     <!-- Footer -->
-    <div class="footer bg-gray">
+    <div class="footer bg-gray" id="foot">
         <img class="decoration-circles" src="images/decoration-circles.png" alt="alternative">
         <div class="container">
             <div class="row">
