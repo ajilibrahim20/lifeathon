@@ -937,8 +937,8 @@ a:hover {
 /*     Extra Pages     */
 /***********************/
 .ex-header {
-	padding-top: 7rem;
-	padding-bottom: 3rem;
+	padding-top: 12rem;
+	padding-bottom: 1rem;
 	background-color: #fcfafb;
 }
 
@@ -1362,5 +1362,9 @@ a:hover {
 		margin-left: 2.875rem;
 	}
 	/* end of extra pages */
+}
+.moveup
+{
+	margin-top: -100px;
 }
 /* end of min-width 1200px */
