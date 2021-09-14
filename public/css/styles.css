@@ -583,24 +583,64 @@ a:hover {
 /*     Header     */
 /******************/
 /* badge */
-.wrapper {
-	width: 100%;
-	  max-width: 900px;
-	  margin: 3em auto;
-	  text-align: center;
-  }
+#badge {  
+    background: none;  
+    margin: auto;  
+    width: 80%;  
+    height: 700px;  
+	
+	padding-bottom: 100px; 
+    font-family: helvetica, arial, sans-serif;  
+    }  
   
-  /* Badge */
-  .badge {
-	  margin:1.5em 3em;
-	  width: 8.5em;
-	  height: 8.5em;
-	  border-radius: 20%;
-	  display: inline-block;
-	  top: 0;
-	  transition: all 0.2s ease;
-	box-shadow: 8px 10px 12px 3px rgba(0, 0, 0, 0.43);
+.callgafl {  
+     background: #e3e3e3;  
+     text-align: center;
+     padding: 0.65em 20px;  
+     margin-left: -20px;  
+	 margin-top: -85px;
+	 margin-bottom: 50px;
+     position: relative;  
+     width: 100%;   
+    -moz-box-shadow: 1px 1px 10px #292929;  
+    -webkit-box-shadow: 1px 1px 10px #292929;  
+     box-shadow: 1px 1px 10px #292929;  
+    color: #fff;  
+    text-shadow: 0 2px 1px #292929;
+    font-size: 1.65em;
+  background: white; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1030d', endColorstr='#6d0019',GradientType=0 ); /* IE6-8 */
+
+}
+.arrowLeft {  
+     width: 0; height: 0;  
+     line-height: 0;  
+     border-left: 20px solid transparent;  
+     border-top: 10px solid #3A000E;  
+     top: 100%;  
+     left: 0;  
+     position: absolute;
+}
+.arrowRight {  
+     width: 0; height: 0;  
+     line-height: 0;  
+     border-right: 20px solid transparent;  
+     border-top: 10px solid #3A000E;  
+     top: 100%;  
+     right: 0;  
+     position: absolute;
+}
+.number {padding: 0 1em;font-size: 1.3em}
+
+@media screen and (max-width: 768px) {
+  .callgafl { font-size: 1.3em; }
+  .arrowRight, .arrowLeft { 
+    top: 100%;
   }
+  .number { font-size: 1em; } 
+}
   
   
   
