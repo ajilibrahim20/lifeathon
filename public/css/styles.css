@@ -582,11 +582,36 @@ a:hover {
 /******************/
 /*     Header     */
 /******************/
+/* badge */
+.wrapper {
+	width: 100%;
+	  max-width: 900px;
+	  margin: 3em auto;
+	  text-align: center;
+  }
+  
+  /* Badge */
+  .badge {
+	  margin:1.5em 3em;
+	  width: 8.5em;
+	  height: 8.5em;
+	  border-radius: 20%;
+	  display: inline-block;
+	  top: 0;
+	  transition: all 0.2s ease;
+	box-shadow: 8px 10px 12px 3px rgba(0, 0, 0, 0.43);
+  }
+  
+  
+  
 .header {
 	padding-top: 8rem;
 	padding-bottom: 4em;
-	background: url('../images/header-background.jpg') center center no-repeat;
+	background: url('../images/header-background.jpg') center center no-repeat ;
+	
 	background-size: cover;
+	background-attachment: fixed;
+	 
 	text-align: center;
 }
 
