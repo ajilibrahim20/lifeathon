@@ -647,7 +647,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1030d', end
 .header {
 	padding-top: 8rem;
 	padding-bottom: 4em;
-	background: url('../images/header-background.jpg') center center no-repeat ;
+	background: url('../images/header-background.png') center center no-repeat ;
 	
 	background-size: cover;
 	background-attachment: fixed;
