@@ -50,3 +50,17 @@
   from {opacity: 0;}
   to {opacity:1 ;}
 }
+@media(max-width:700px){
+  .popup .popuptext {
+    top:25%;
+    left:5%;
+    width:90vw;
+  }
+}
+@media(max-width:380px){
+  .popup .popuptext {
+    top:15%;
+    left:5%;
+    width:90vw;
+  }
+}
