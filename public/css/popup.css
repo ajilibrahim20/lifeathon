@@ -11,7 +11,7 @@
 }
 /* The actual popup (appears on top) */
 .popup .popuptext {
-  position:fixed;
+  position:absolute;
   visibility: hidden;
   top:30%;
   left:20%;

@@ -74,9 +74,7 @@ html {
 	width: 20%;
 }
 
-.html-static{
-	position:fixed;
-}
+
 body, p {
 	color: #5e6576; 
 	font: 400 1rem/1.625rem "Open Sans", sans-serif;
@@ -1589,3 +1587,23 @@ body {
 	margin-top: -100px;
 }
 /* end of min-width 1200px */
+#logolife
+{
+	margin-top: -100px;
+}
+@media(max-width: 280px) {
+	#last
+	{
+		max-width:100%;
+		display:inline-block;
+		white-space:nowrap;
+		
+		text-overflow:ellipsis;
+	}
+  }
+  @media(max-width: 480px) {
+	#logolife
+	{
+		margin-top: 2rem;
+	}
+  }

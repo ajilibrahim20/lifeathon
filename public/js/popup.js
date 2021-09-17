@@ -39,7 +39,7 @@ function button(){
   blur.classList.toggle("blurr");
   head.classList.remove("blurr");
   foot.classList.remove("blurr");
-  html.classList.remove("html-static");
+ 
 }
 function myFunction() {
   if(count()==0){
@@ -47,7 +47,7 @@ function myFunction() {
     blur.classList.toggle("blurr");
     head.classList.toggle("blurr");
     foot.classList.toggle("blurr");
-    html.classList.toggle("html-static");
+   
    }
   }
   function myFunction1() {
@@ -56,7 +56,7 @@ function myFunction() {
     blur.classList.toggle("blurr");
     head.classList.toggle("blurr");
     foot.classList.toggle("blurr");
-    html.classList.toggle("html-static");
+   
     }
   }
   function myFunction2() {
@@ -65,7 +65,7 @@ function myFunction() {
     blur.classList.toggle("blurr");
     head.classList.toggle("blurr");
     foot.classList.toggle("blurr");
-    html.classList.toggle("html-static");
+    
     }
   }
   function myFunction3(){
@@ -74,7 +74,7 @@ function myFunction() {
     blur.classList.toggle("blurr");
     head.classList.toggle("blurr");
     foot.classList.toggle("blurr");
-    html.classList.toggle("html-static");
+    
     }
   }
   function myFunction4(){
@@ -83,7 +83,7 @@ function myFunction() {
     blur.classList.toggle("blurr");
     head.classList.toggle("blurr");
     foot.classList.toggle("blurr");
-    html.classList.toggle("html-static");
+  
     }
   }
   function myFunction5(){
@@ -92,7 +92,7 @@ function myFunction() {
     blur.classList.toggle("blurr");
     head.classList.toggle("blurr");
     foot.classList.toggle("blurr");
-    html.classList.toggle("html-static");
+
     }
   }
   function myFunction6(){
@@ -101,7 +101,7 @@ function myFunction() {
     blur.classList.toggle("blurr");
     head.classList.toggle("blurr");
     foot.classList.toggle("blurr");
-    html.classList.toggle("html-static");
+   
     }
   }
   function myFunction7(){
@@ -110,7 +110,7 @@ function myFunction() {
     blur.classList.toggle("blurr");
     head.classList.toggle("blurr");
     foot.classList.toggle("blurr");
-    html.classList.toggle("html-static");
+ 
     }
   }
   function myFunction8(){
@@ -119,7 +119,7 @@ function myFunction() {
     blur.classList.toggle("blurr");
     head.classList.toggle("blurr");
     foot.classList.toggle("blurr");
-    html.classList.toggle("html-static");
+   
     }
   }
   function myFunction9(){
@@ -128,7 +128,7 @@ function myFunction() {
     blur.classList.toggle("blurr");
     head.classList.toggle("blurr");
     foot.classList.toggle("blurr");
-    html.classList.toggle("html-static");
+   
     }
   }
   function myFunction10(){
@@ -137,6 +137,6 @@ function myFunction() {
     blur.classList.toggle("blurr");
     head.classList.toggle("blurr");
     foot.classList.toggle("blurr");
-    html.classList.toggle("html-static");
+    
     }
   }
