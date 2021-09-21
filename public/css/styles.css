@@ -73,8 +73,23 @@ html {
 .curtain__content img {
 	width: 20%;
 }
-
-
+#submit
+{
+	border: solid 2px #ff0015;
+	background-color: #ff0015;
+	border-radius: 20px;
+	padding: 4px 4px;
+	margin: 5px 5px;
+	width: fit-content;
+	color: white;
+	transition: linear 300ms;
+}
+#submit:hover
+{
+	color: #ff0015;
+	background-color: #ffffff;
+	border: solid 2px #ff0015;
+}
 body, p {
 	color: #5e6576; 
 	font: 400 1rem/1.625rem "Open Sans", sans-serif;
